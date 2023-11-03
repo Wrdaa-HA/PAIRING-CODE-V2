@@ -1,14 +1,14 @@
 /*
  * Information
- * Creator / Developer: Dani Ramdani (Dani Techno.) - FullStack Engineer
- * Contact creator / Developer: 0895 1254 5999 (WhatsApp), contact@danitechno.com (Email)
+ * Creator / Developer: Rull DVinz(Hoiril Anam.) - FullStack Engineer
+ * Contact creator / Developer: 0859 3939 1878 (WhatsApp), contact@wrdaaratu@gmail.com (Email)
 */
 
 /* Thanks to
- * Dani Techno. - FullStack Engineer (Creator / Developer)
+ * Rull DVinz. - FullStack Engineer (Creator / Developer)
  * daniapi.biz.id (API provider)
  * api.caliph.biz.id (API provider)
- * @danitech/scraper (Scraper provider)
+ * @DVinz/scraper (Scraper provider)
  * @whiskeysockets/baileys (Library "Baileys" provider)
  * @adiwajshing/keyed-db
  * @hapi/boom
@@ -40,33 +40,33 @@ module.exports = {
   auto_read_messages: true,
   auto_typing: true,
   auto_recording: false,
-  mongodb_uri: 'Your MongoDb URI', // Register here: https://mongodb.com/#sign-up
+  mongodb_uri: 'mongodb+srv://DARKSHAN:1000@cluster0.t1wsjlv.mongodb.net', // Register here: https://mongodb.com/#sign-up
   api: {
     dani: {
       api_url: 'https://daniapi.biz.id',
-      api_key: 'Your API Key' // Register here: https://daniapi.biz.id/#sign-up
+      api_key: 'sk-tv0749luixgs79f70' // Register here: https://daniapi.biz.id/#sign-up
     },
     caliph: {
       api_url: 'https://api.caliph.biz.id', // Register here: https://api.caliph.biz.id/#sign-up
-      api_key: 'Your API Key'
+      api_key: 'hjkFDzvw'
     }
   },
   bot: {
-    name: 'Bot Name',
+    name: 'Wardaa BOT',
     profile_status: 'Bot aktif hingga kiamat or 24/7'
   },
   owner: {
-    name: ["Owner Name"],
-    number: ["628xxx"]
+    name: ["Rull - DVinz"],
+    number: ["6285939391878"]
   },
   daily_limit: {
-    free: 50,
+    free: 100,
     premium: Infinity
   },
   watermark: {
     sticker: {
-      package_name: 'Created by',
-      author_name: 'Your Name'
+      package_name: 'Created By Wardaa BOT ',
+      author_name: 'DVinz'
     }
   },
   react: {
@@ -76,9 +76,9 @@ module.exports = {
   },
   cron_jobs: {
     time: '0 0 * * *',
-    timzone: 'Asia/Jakarta'
+    timzone: 'Asia/Sumenep'
   },
-  image_url: 'https://telegra.ph/file/f0fa86144d97805672ec9.jpg',
+  image_url: 'https://i.imgur.com/IbRtZs1.jpg',
   audio_url: 'https://cdn.danitechno.com/audio/dj-joanna-breakbeat.mp3',
   message: {
     plans_and_pricing: '*Plans & Pricing*\n\n*Plan:*\n- Free (benefit): Limit 10/day\n- Premium (benefit): Limit infinity/unlimited\n\n*Price:*\n- Premium 7 hari: 3rb\n- Premium 14 hari: 5rb\n- Premium 1 bulan 10rb\n- Premium 2 bulan: 20rb\n- Premium 1 tahun: 120rb\n\n*Contact owner:* 628xxx',
@@ -89,6 +89,6 @@ module.exports = {
   },
   date: {
     country: 'id-ID',
-    time_zone: 'Asia/Jakarta'
+    time_zone: 'Asia/Sumenep'
   }
 };
